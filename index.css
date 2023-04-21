@@ -1,5 +1,5 @@
-@import url('https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css');
-@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@900,0.5&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@900,1&display=swap');
 
 :root {
   font-family: "Fira Code", monospace;
@@ -9,7 +9,7 @@ body {
   margin: 0;
 }
 
-header {
+header, footer {
   font-family: "Recursive", sans-serif;
   background: silver;
   color: white;
