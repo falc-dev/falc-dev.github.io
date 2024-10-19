@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Recursive:wght,MONO@900,1&display=swap');
+@import url('./public/doumbar.css');
 
 :root {
   font-family: "Fira Code", monospace;
@@ -45,4 +46,11 @@ section {
 
 .welcome:hover {
   background-color: #e0e0e0;
+}
+
+.reveal {
+  filter: blur(1);
+}
+.reveal:hover {
+  filter: none;
 }
