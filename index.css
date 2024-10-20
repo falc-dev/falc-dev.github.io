@@ -59,9 +59,13 @@ section {
 }
 
 @supports (animation-timeline: scroll()) {
+  :root {
+    --header-height: 50vh;
+  }
+
   @keyframes scroll-shrink-header {
     from {
-      height: 50vh;
+      height: var(--header-height);
       text-align: center;
     }
   
@@ -77,6 +81,10 @@ section {
     animation-range: 0vh 20vh;
     position: fixed;
     top: 0px;
+  }
+
+  body {
+    padding-top: var(--header-height);
   }
 }
 
