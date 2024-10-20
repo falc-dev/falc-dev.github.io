@@ -42,7 +42,7 @@ section {
   border-radius: 50%;
   height: 100px;
   width: 100px;
-  margin: 2vh auto;
+  padding: 2vh auto;
 }
 
 .welcome:hover {
@@ -81,6 +81,7 @@ section {
     animation-range: 0vh 20vh;
     position: fixed;
     top: 0px;
+    width: 100%;
   }
 
   body {
