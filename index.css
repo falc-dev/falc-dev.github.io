@@ -15,11 +15,11 @@ header, footer {
   background: silver;
   color: white;
   padding: 1vh 1vw;
+  box-sizing: border-box;
 }
 
 footer {
   display: flex;
-  box-sizing: border-box;
   gap: 14px;
   justify-content: center;
   position: sticky;
@@ -35,18 +35,23 @@ section {
   font-family: "Recursive", sans-serif;
   color: gray;
   display: flex;
-  flex-direction: column;
+  gap: 14px;
   align-items: center;
   justify-content: center;
-  border: solid 4px silver;
-  border-radius: 50%;
-  height: 100px;
-  width: 100px;
-  padding: 2vh auto;
+  padding: 2vh 2vw;
 }
 
 .welcome:hover {
   background-color: #e0e0e0;
+}
+
+.ring {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 100px;
+  border: solid 4px silver;
+  border-radius: 50%;
 }
 
 .reveal {
