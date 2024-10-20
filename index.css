@@ -58,7 +58,7 @@ section {
   filter: none;
 }
 
-@supports (height: calc-size(auto)) {
+@supports (animation-timeline: scroll()) {
   @keyframes scroll-shrink-header {
     from {
       height: 50vh;
@@ -73,8 +73,8 @@ section {
   }
 
   header {
-    animation: scroll-shrink-header;
-    animation-timeline: scroll();
+    animation: scroll-shrink-header forwards;
+    animation-timeline: scroll(root);
     animation-range: 0vh 40vh;
   }
 }
