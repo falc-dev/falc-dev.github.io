@@ -66,16 +66,17 @@ section {
     }
   
     to {
-      height: 8vh;
-      height: calc-size(auto);
+      height: 10vh;
       text-align: left;
     }
   }
 
   header {
-    animation: scroll-shrink-header forwards;
+    animation: scroll-shrink-header linear forwards;
     animation-timeline: scroll(root);
-    animation-range: 0vh 40vh;
+    animation-range: 0vh 20vh;
+    position: fixed;
+    top: 0px;
   }
 }
 
