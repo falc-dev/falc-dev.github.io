@@ -48,6 +48,7 @@ section {
 .ring {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   height: 100px;
   width: 100px;
   border: solid 4px silver;
@@ -65,7 +66,7 @@ section {
 
 @supports (animation-timeline: scroll()) {
   :root {
-    --header-height: 50vh;
+    --header-height: 40vh;
   }
 
   @keyframes scroll-shrink-header {
@@ -83,7 +84,7 @@ section {
   header {
     animation: scroll-shrink-header linear forwards;
     animation-timeline: scroll(root);
-    animation-range: 0vh 20vh;
+    animation-range: 0vh 30vh;
     position: fixed;
     top: 0px;
     width: 100%;
