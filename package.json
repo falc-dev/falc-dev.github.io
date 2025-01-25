@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "dev": "servor"
+  },
+  "author": "FALC",
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+}
